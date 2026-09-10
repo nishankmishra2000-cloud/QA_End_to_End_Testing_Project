@@ -1,0 +1,8 @@
+Test Case ID,Test Scenario,Preconditions,Steps,Test Data,Expected Result,Actual Result,Status,Test Type
+TC-001,Login valid,Login page open,"1. Enter valid username 2. Enter valid password 3. Click Login",standard_user / secret_sauce,Products page opens,Products page opens,Pass,Functional
+TC-002,Login invalid password,Login page open,"1. Enter valid username 2. Enter invalid password 3. Click Login",standard_user / invalid,Error is shown and login is blocked,Error is shown and login is blocked,Pass,Negative
+TC-003,Sort low to high,Products page open,"1. Open sort dropdown 2. Select Price low to high",lohi,Products are sorted ascending by price,Products are sorted ascending by price,Pass,Functional
+TC-004,Add product,Products page open,"1. Click Add to cart on a product 2. Open cart",Sauce Labs Backpack,Product is present in cart,Product is present in cart,Pass,Functional
+TC-005,Remove product,Cart contains product,"1. Open cart 2. Click Remove",Sauce Labs Backpack,Product is removed,Product is removed,Pass,Functional
+TC-006,Checkout,Cart contains product,"1. Checkout 2. Enter first/last name and postal code 3. Continue 4. Finish",Test User / 110001,Order completion confirmation appears,Order completion confirmation appears,Pass,End-to-End
+TC-007,Logout,User logged in,"1. Open menu 2. Click Logout",N/A,Login page appears,Login page appears,Pass,Functional
