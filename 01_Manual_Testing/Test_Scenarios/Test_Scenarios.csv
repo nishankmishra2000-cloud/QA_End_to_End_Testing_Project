@@ -1,0 +1,8 @@
+Test Scenario ID,Scenario,Precondition,Expected Result,Test Type
+TS-001,Login with valid credentials,Valid user credentials,Dashboard/products page is displayed,Functional
+TS-002,Login with invalid credentials,Invalid credentials,Error message is displayed and login is blocked,Negative
+TS-003,Sort products by price,Products available,Products are ordered according to selected sort,Functional
+TS-004,Add product to cart,Product listing available,Selected product appears in cart,Functional
+TS-005,Remove product from cart,Product exists in cart,Product is removed and cart count updates,Functional
+TS-006,Complete checkout,Item in cart and valid checkout data,Order confirmation is displayed,End-to-End
+TS-007,Logout,Authenticated session,User is logged out and protected page is inaccessible,Security/Functional
