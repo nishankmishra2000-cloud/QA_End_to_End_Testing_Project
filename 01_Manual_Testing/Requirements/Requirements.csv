@@ -1,0 +1,8 @@
+Requirement ID,Module,Functional Requirement,Non-Functional Requirement
+REQ-001,Login,User can log in with valid credentials,Login response should be reasonably fast
+REQ-002,Login,Invalid credentials should prevent login,Error should be understandable
+REQ-003,Products,User can view products,Product page should be usable in supported browser
+REQ-004,Search/Sort,User can sort products by price/name,Sorting should return consistent results
+REQ-005,Cart,User can add/remove products,Cart state should update correctly
+REQ-006,Checkout,User can enter checkout details and place order,Checkout should preserve entered data
+REQ-007,Logout,User can log out securely,Session should no longer expose authenticated pages
